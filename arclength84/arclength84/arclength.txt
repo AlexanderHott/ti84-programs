@@ -1,0 +1,81 @@
+ARCLENGTH OF A CURVE  v2.01
+
+This program calculates the arclength A of the curve of a function between two points P1 and P2 (lower and upper limit).
+The function may be CARTESIAN ( y=f(x) ), PARAMETRIC ( X=x(t), Y=y(t) ) or in POLAR form R=r(theta).
+Additionally, the surfaces Sx, Sy and the volumes Vx, Vy which result from the rotation of the curve segment around the x- or y-axis  are determined.
+The coordinates of P1 and P2, results and the curve itself are depicted graphically, 
+the numerical values of A, Sx, Sy, Vx, Vy are stored in the list variable L3!
+
+EXAMPLE 1:  6*x*y = x^4+3; x1 = 1, x2 = 2
+
+Press the prgm-key, select arclen and press enter twice.
+Then select 1: F(X) and enter: (X^4+3)/(6*X)
+lower x1:  1  enter
+upper x2:  2  enter
+Result in the graph of the function:
+x1/y1  = 1 / 0.666667
+x2/y2 = 2 / 1.58333
+arclength = 1.4166667    -     (The exact result would be 17/12)
+Press enter to see the next graph:
+SX=9.2284288 , SY=13.958559
+VX=3.1976925 , VY=8.1681413
+Press enter, program prompts:
+SELECT:
+1: NEW LIMITS
+2: EXIT
+For new x1, x2 select 1: otherwise choose 2: .
+The results of the calculation,
+To scrutinize the function, press the trace-key.
+
+EXAMPLE 2: Cycloid:  x(t) = t-sin(t), y(t) = 1-cos(t); t1 = 0, t2 = 2*Pi
+Press the prgm-key, select arclen and press enter twice.
+Then select 2: X(T),Y(T) and key in: 
+T-sin(T), then press enter-key,
+1-cos(T), press enter-key 
+LOWER t1:  0  enter
+UPPER t2:  2*Pi  enter    ( for Pi press 2nd  ^ )
+Result:
+t1/X1/Y1 = 0 / 0 / 0
+t2/X2/Y2 = 6.2831853 / 6.2831853 / 0
+arclength = 7.9999993  ( exact: 8 )
+Press enter to see the next graph:
+SX=67.020638 , SY=157.91366
+VX=49.348019 , VY=186.03763
+
+Press enter, program prompts:
+SELECT:
+1: NEW LIMITS
+2: EXIT
+For new t1, t2 select 1: otherwise choose 2: .
+To scrutinize the function, press the trace-key.
+
+EXAMPLE 3: Cardioid R = 2(1-cos(theta)); theta1 = 0, theta2 = Pi
+Press the prgm-key, select arclen and press enter twice,
+then select 3: R(theta) and key in: 2(1-cos(theta), press enter
+---As the program has switched to POLAR-mode, you will achieve the variable theta by the "XT0n"-key
+   (3rd row, 2nd column) or keying alpha 3---
+LOWER r1:  0
+UPPER r2:  Pi  enter    ( for Pi press 2nd  ^ )
+Result:
+theta1/r1 = 0 / 0
+theta2/r2 = 3.1415927 / 4
+arclength = 7.9999996 ( exact value: 8 )
+Press enter to see the next graph:
+SX=80.424768 , SY=80.424771
+VX=67.020641 , VY=98.696046
+Press enter, program prompts:
+SELECT:
+1: NEW LIMITS
+2: EXIT
+For new t1, t2 select 1: otherwise choose 2: .
+To scrutinize the function, press the trace-key.
+
+PLEASE NOTE: in some cases an error may occur, e.g. f(x)=(16-x^2)^.5 ( sqrt(16-x^2) )
+in the limits of x1=0 and x2=4 will yield for the derivative -x/(sqrt(16-x^2)) an expression x/0
+for the upper limit x2. In those cases enter a value near to x2, e.g. x2=3.999!
+
+Claus M. Dachselt
+
+
+
+ 

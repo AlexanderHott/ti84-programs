@@ -1,0 +1,48 @@
+---------------ALLMATH--------------------
+
+Is an awsome math program that will calculate and do a variety of things (work and equations shown on most things) 
+including: complete the square, direct/indirect variation, number of solutions, midpoint, prime numbers, Pythagorean theorem, 
+quadratic formula, slope, distance, vertex, area, volume, surface area, y intercept, Fibonacci sequence, 
+circumference, average, simplified square roots, proportions, system of equations, distance of point to line, 
+types of quadrilaterals, scientific notation, a point of an isosceles trapezoid, Pythagorean triples, 
+law of sines/cosines, DMS, geometric mean, circle equation maker, lateral area, apothem finder, point-slope 
+to Y-intercept, frustums, graphing without Y= format, graphing < and >, vector magnitude and direction, 
+vector addition, and 3D distance, test for collinear points, 3D midpoint, sphere equation maker, distance of parallel lines, 
+modulus, 3 variable system of equations, standard form to y intercept, cramers rule, 3 points to equation for parabola, 
+graphing inequalities, All about conics (equation makers, details about, and etc.), logarithms of X base, iterations, 
+sequences, and sum of sequences, *Newly added Cramer's Rule for a system of 3 equations* - been a while but i'm back!.
+
+**For TI-84+ C/CE editions please search ticalc.org for corresponding Allmath version!
+
+Allmath is compatible with MirageOS 1.2!!!
+
+Recommended for Pre-algebra through Calculus. Version 7.13
+
+I Know that Allmath is big! I am working on making it as small as possible. But meanwhile you will have to archive everything to run Allmath.
+
+--TO ARCHIVE OR DELETE THINGS--
+Press 2nd then MEM which is over the + button. The go to the Mem Mgmt/Del menu, which is number 2, then go to the All Menu which is number 1. After that you will see a list of programs and stuff. To archive something scroll to it and then press Enter. A little star should appear next to it. If it asks you to Garbage Collect go to Yes and wait about a minute. To Unarchive press enter again and the star will disappear. If you want to delete something, from the same menu press delete and then yes. when a program is archived you can't run it until it is unarchived.
+------------------
+
+WARNING: if you still have MirageOS version 1.1 then what are you waiting for go update it now to 1.2!
+
+
+When you open Allmath the welcome screen will appear. You can just press any key to continue. 
+When in the menus you can press both numbers of the subprogram you want to go to and press enter. 
+Also when in the menus you can just press enter to go to the last program you went to or 2nd for a little 
+bit of quick help. If an error pops up while in a subprogram I suggest you "Quit" because if you "Goto" it 
+will scroll for like 3 min.
+
+
+This version fixes couple small bugs scattered throughout and adds Cramer's Rule for a system of three equations.
+
+
+------Special Thanks to Jeff Gregory and the humongous TI-83 Plus manual------
+
+
+I don't mind if you modify anything but please try to give me a little credit.
+
+If Allmath screws up your calculator I am in no way responsible for it, but I could probably help you fix it because it is virtually imposible to permanently ruin your calculator with any program.
+
+
+If you find any bugs, have any questions, or any requests please E-Mail me, Edwin Howard, at: e12voltsdac@gmail.com
